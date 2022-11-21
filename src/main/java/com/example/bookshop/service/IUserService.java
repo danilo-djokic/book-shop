@@ -2,6 +2,7 @@ package com.example.bookshop.service;
 
 import com.example.bookshop.model.User;
 
+import java.util.List;
 import java.util.Optional;
 
 public interface IUserService {
@@ -10,4 +11,6 @@ public interface IUserService {
     Optional<User> findUserByUsername(String username);
 
     void makeAdmin(String username);
+
+
 }
